@@ -1,0 +1,21 @@
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom:30px;
+}
+.list-group-item {
+  display:block;
+  color:black;
+  padding:10px 100px;
+  text-decoration: none;
+  border:1px solid #ccc;
+}
+.list-group-item:first-of-type {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.list-group-item:last-of-type {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.list-group-item:hover {
+  background:#eee;
+}
